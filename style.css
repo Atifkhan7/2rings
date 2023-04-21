@@ -1,0 +1,819 @@
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ---------------------------------------------------------- */
+
+/* .container */
+
+.container {
+    /* border: .1px solid blue; */
+    margin: auto;
+    width: 1349px;
+    height: 620px;
+    background: url(img/banner2.jpg) no-repeat center center/cover;
+}
+
+/*.container #navbar */
+
+#navbar {
+    /* background-color: rgba(76, 76, 255, 0.1); */
+}
+
+/* .container #navbar ul */
+
+#navbar ul {
+    margin: 0;
+}
+
+/* .container #navbar ul li*/
+
+#navbar ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* .container #navbar ul li h1 a.a*/
+
+#navbar ul li a.a {
+    margin-right: 300px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* .container #navbar ul li a*/
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    color: #3f3730;
+}
+
+/* .container #navbar ul li a:hover*/
+.container #navbar ul li a:hover,
+.container #navbar ul li a.h {
+    color: #fff;
+}
+
+/* navbar aur header k baat hatam */
+
+/*.container #section */
+
+#section {
+    /* background-color: hotpink; */
+}
+
+/* .container #content animation */
+
+.container #content {
+    animation-name: animation-atifali;
+    animation-duration: 15s;
+    animation-iteration-count: 3;
+}
+
+@keyframes animation-atifali {
+    from {
+        margin: 0px 0 0 -890px;
+    }
+
+    to {
+        margin: 90px 0 0 0px;
+    }
+}
+
+
+/*.container #section h1*/
+
+#section #content h1 {
+    font-size: 5rem;
+    margin: 90px 0 0 150px;
+    width: 800px;
+    color: #413c32;
+}
+
+/*.container #section h1 span*/
+
+.container #section h1 span {
+    color: #e76f64;
+}
+
+/* #section #content p  */
+
+#section #content p {
+    width: 400px;
+    margin: 20px 0px 0px 150px;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* #section #content .btn */
+
+#section #content .btn {
+    padding: 22px 30px;
+    width: 20%;
+    margin: 70px 0px 0px 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: #413c31;
+    color: #fff;
+    transition-duration: 3s;
+    transition-property: background-color;
+}
+
+/* #section #content .btn:hover */
+
+#section #content .btn:hover {
+    background-color: #e76f64;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ one page is over */
+
+
+
+/* .container2 */
+
+.container2 {
+    margin: auto;
+    margin-top: -44px;
+    /* border: 1px solid green; */
+    /* border-top: none; */
+    width: 1348px;
+    height: 810px;
+    background: url(img/plan_bg.png) no-repeat center center/cover;
+}
+
+/* .container2 .header1 */
+
+.container2 .header1 {
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+/* .container2 .header1 img.play */
+
+.container2 .header1 img.play {
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+/* .container2 .header1 img.ring */
+
+.container2 .header1 img.ring {
+    margin-bottom: 10px;
+}
+
+/* .container2 .header1 h1 */
+
+.container2 .header1 h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* .container2 .header1 p */
+
+.container2 .header1 p {
+    font-size: 20px;
+}
+
+/* .container2 #section2 .box */
+
+.container2 #section2 .box {
+    border: 25px solid #fffffd00;
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    display: inline;
+    background-color: #f8d98f;
+}
+
+/* .container2 #section2 .box img */
+
+.container2 #section2 .box img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .container2 #section2 #box1 */
+
+.container2 #section2 #box1 {
+    margin-left: 50px;
+}
+
+/* .container2 #section2 .box h1 */
+
+.container2 #section2 .box h1 {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+/* .container2 #section2 .box p  */
+
+.container2 #section2 .box p {
+    text-align: justify;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ two num page is over  */
+
+
+/* .container3 */
+.container3 {
+    /* border: 1px solid black; */
+    margin-top: 1px;
+    width: 1349;
+    height: 980px;
+}
+
+/* .container3 .header2  */
+
+.container3 .header2 {
+    /* background-color: yellow; */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*.container3 .header2 h1*/
+
+.container3 .header2 h1 {
+    font-size: 3.1rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* .container3 .header2 p */
+
+.container3 .header2 p {
+    font-size: 22px;
+}
+
+/* .container3 #section3 .box1 */
+
+.container3 #section3 .box1 {
+    margin-top: 10px;
+    width: 360px;
+    height: 368px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+/* .container3 #section3 #boxa  */
+
+.container3 #section3 #boxa {
+    margin-left: 80px;
+}
+
+/* .container3 #section3 #boxa img */
+
+.container3 #section3 #boxa img {
+    width: 100%;
+}
+
+/* .container3 #section3 #boxb img */
+
+.container3 #section3 #boxb img {
+    width: 100%;
+}
+
+/* .container3 #section3 #boxb img.round */
+
+.container3 #section3 #boxb img.round {
+    width: 30%;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+/* .container3 #section3 #boxc img */
+
+.container3 #section3 #boxc img {
+    width: 100%;
+}
+
+/* .container3 #section3 #boxb */
+
+.container3 #section3 #boxb {
+    margin-top: 150px;
+}
+
+/* .container3 #section3 .box1 h1 */
+
+.container3 #section3 .box1 h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------------------------------- three number is over */
+
+/* .container4  */
+
+.container4 {
+    /* border: 1px solid blue; */
+    width: 1349px;
+    height: 600px;
+    margin-top: 763px;
+    background: url(img/about_bg.jpg) no-repeat center center/cover;
+}
+
+/* .container4 #section4 */
+
+.container4 #section4 {
+    background: url(img/about.png) no-repeat right;
+}
+
+/* .container4 #section4 img */
+
+.container4 #section4 img {
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+/* .container4 #section4 h1  */
+
+.container4 #section4 h1 {
+    margin-top: 5;
+    margin-left: 140px;
+    font-size: 3rem;
+}
+
+/* .container4 #section4 p */
+
+.container4 #section4 p {
+    width: 400px;
+    margin-left: 140px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/* .container4 #section4 .btn */
+
+.container4 #section4 .btn {
+    padding: 10px 0px;
+    width: 20%;
+    margin-left: 140px;
+    margin-top: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #413c31;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition-duration: 3s;
+    transition-property: background-color;
+}
+
+/* .container4 #section4 .btn:hover */
+.container4 #section4 .btn:hover {
+    background-color: #e76f64;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- four number page is over  */
+
+/* .container5 */
+
+.container5 {
+    /* border: 1px solid blueviolet; */
+    width: 1349px;
+    margin-top: 1px;
+    height: 1950px;
+}
+
+/* .container5 .header3 */
+
+.container5 .header3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .container5 .header3 img */
+
+.container5 .header3 img {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/* .container5 .header3 h1 */
+
+.container5 .header3 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+/* .container5 #section5 */
+
+.container5 #section5 {
+    /* background-color: #f8d98f; */
+}
+
+/* .container5 #section5 .boxab */
+
+.container5 #section5 .boxab {
+    /* border: 0px solid red; */
+    background-color: #fff4eb;
+    width: 1150px;
+    height: 480px;
+    margin: auto;
+}
+
+/* .container5 #section5 .boxab img */
+
+.container5 #section5 .boxab img {
+    float: left;
+    width: 50%;
+    height: 480px;
+    object-fit: cover;
+    padding: 0;
+}
+
+/* .container5 #section5 .boxab h1.h1 */
+
+.container5 #section5 .boxab h1.h1 {
+    margin-left: 600px;
+    margin-top: 20;
+    font-size: 20px;
+    color: #c1c2c3;
+}
+
+/* .container5 #section5 .boxab h1 */
+
+.container5 #section5 .boxab h1 {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+/* .container5 #section5 .boxab p */
+
+.container5 #section5 .boxab p {
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/* .container5 #section5 .boxab button */
+
+.container5 #section5 .boxab button {
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 170px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #d8d7d6
+}
+
+/* .container5 #section5 .boxab button:hover  */
+.container5 #section5 .boxab button:hover {
+    color: #ff2d1a;
+}
+
+/* .container5 #section5 .boxac */
+
+.container5 #section5 .boxac {
+    /* border: 1px solid red; */
+    width: 1150px;
+    height: 480px;
+    margin: 10px auto;
+    background-color: #fff4eb;
+
+}
+
+/* .container5 #section5 .boxac img */
+
+.container5 #section5 .boxac img {
+    float: left;
+    width: 50%;
+    height: 480px;
+    object-fit: cover;
+    padding: 0;
+}
+
+/* .container5 #section5 .boxac h1.h1 */
+
+.container5 #section5 .boxac h1.h1 {
+    margin-left: 600px;
+    margin-top: 20;
+    font-size: 20px;
+    color: #c1c2c3;
+}
+
+/* .container5 #section5 .boxac h1 */
+
+.container5 #section5 .boxac h1 {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+/* .container5 #section5 .boxac p  */
+
+.container5 #section5 .boxac p {
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/* .container5 #section5 .boxac button  */
+
+.container5 #section5 .boxac button {
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 170px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #d8d7d6;
+}
+
+/* .container5 #section5 .boxac button:hover */
+.container5 #section5 .boxac button:hover {
+    color: #ff2d1a;
+}
+
+/* .container5 #section5 .boxad */
+
+.container5 #section5 .boxad {
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 1150px;
+    margin: 1px auto;
+    height: 580px;
+}
+
+/* .container5 #section5 .boxad h1 */
+
+.container5 #section5 .boxad h1 {
+    font-size: 3rem;
+    margin-top: 4px;
+    margin-bottom: 100px;
+}
+
+/* .container5 #section5 .boxad img */
+.container5 #section5 .boxad img.saya {
+    margin: auto;
+    animation-name: animation-atifaslam;
+    animation-duration: 15s;
+    animation-iteration-count: 3;
+}
+
+@keyframes animation-atifaslam {
+    from {
+        margin-left: -1740px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+/* .container5 #section5 .boxad h1.c */
+
+.container5 #section5 .boxad h1.c {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+/* .container5 #section5 .boxad p.c */
+
+.container5 #section5 .boxad p.c {
+    width: 370px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------------------- five number page is over  */
+
+/* .container6 */
+
+.container6 {
+    /* border: 1px solid blue; */
+    width: 1349px;
+    margin-top: 1px;
+    background-color: #ffe4e4;
+}
+
+/* .container6 h1.cont */
+
+.container6 h1.cont {
+    font-size: 3.4rem;
+    text-align: center;
+    /* background-color: #f8d98f; */
+}
+
+/* .container6 form */
+
+.container6 form {
+    /* background-color: aqua; */
+}
+
+/* .container6 form input */
+
+.container6 form input {
+    margin: 5px;
+}
+
+/* .container6 form .input-text1 label */
+
+.container6 form .input-text1 label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-text1 input */
+
+.container6 form .input-text1 input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-text2 label  */
+
+.container6 form .input-text2 label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-text2 input  */
+
+.container6 form .input-text2 input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-number label */
+
+.container6 form .input-number label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-number input */
+
+.container6 form .input-number input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-email label */
+
+.container6 form .input-email label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-email input */
+
+.container6 form .input-email input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-date label */
+
+.container6 form .input-date label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-date input  */
+
+.container6 form .input-date input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-textarea label */
+
+.container6 form .input-textarea label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-textarea input */
+
+.container6 form .input-textarea input {
+    width: 500px;
+    height: 40px;
+    margin-left: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .container6 form .input-button label */
+
+.container6 form .input-button label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-button input */
+
+.container6 form .input-button input {
+    width: 300px;
+    height: 40px;
+    margin-left: 430px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #ffafa8;
+    color: white;
+}
+
+/* .container6 form .input-submitt input:hover  */
+.container6 form .input-button input:hover {
+    background-color: white;
+    color: red;
+}
+
+/* .container6 form .input-reset label */
+
+.container6 form .input-reset label {
+    font-size: 30px;
+    margin-left: 545px;
+}
+
+/* .container6 form .input-reset input */
+
+.container6 form .input-reset input {
+    width: 300px;
+    height: 40px;
+    margin-left: 430px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #ffafa8;
+    color: white;
+}
+
+/* .container6 form .input-reset input:hover  */
+.container6 form .input-reset input:hover {
+    background-color: white;
+    color: red;
+}
+
+/* .container6 h1 */
+
+.container6 h1 {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- six number pags is over  */
